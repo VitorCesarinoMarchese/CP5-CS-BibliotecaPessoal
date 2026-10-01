@@ -1,0 +1,198 @@
+[
+  {
+    "method": "POST",
+    "route": "/api/v1/autores",
+    "path": "/api/v1/autores",
+    "status": 201,
+    "image": "01-post-api-v1-autores-201.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/autores/{id}",
+    "path": "/api/v1/autores/1",
+    "status": 200,
+    "image": "02-get-api-v1-autores-id-200.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/autores",
+    "path": "/api/v1/autores",
+    "status": 200,
+    "image": "03-get-api-v1-autores-200.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/autores/{id}",
+    "path": "/api/v1/autores/1",
+    "status": 204,
+    "image": "04-put-api-v1-autores-id-204.png"
+  },
+  {
+    "method": "POST",
+    "route": "/api/v1/generos",
+    "path": "/api/v1/generos",
+    "status": 201,
+    "image": "05-post-api-v1-generos-201.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/generos/{id}",
+    "path": "/api/v1/generos/1",
+    "status": 200,
+    "image": "06-get-api-v1-generos-id-200.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/generos",
+    "path": "/api/v1/generos",
+    "status": 200,
+    "image": "07-get-api-v1-generos-200.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/generos/{id}",
+    "path": "/api/v1/generos/1",
+    "status": 204,
+    "image": "08-put-api-v1-generos-id-204.png"
+  },
+  {
+    "method": "POST",
+    "route": "/api/v1/usuarios",
+    "path": "/api/v1/usuarios",
+    "status": 201,
+    "image": "09-post-api-v1-usuarios-201.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/usuarios",
+    "path": "/api/v1/usuarios",
+    "status": 200,
+    "image": "10-get-api-v1-usuarios-200.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/usuarios/{id}",
+    "path": "/api/v1/usuarios/1",
+    "status": 200,
+    "image": "11-get-api-v1-usuarios-id-200.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/usuarios/{id}",
+    "path": "/api/v1/usuarios/1",
+    "status": 204,
+    "image": "12-put-api-v1-usuarios-id-204.png"
+  },
+  {
+    "method": "POST",
+    "route": "/api/v1/livros",
+    "path": "/api/v1/livros",
+    "status": 201,
+    "image": "13-post-api-v1-livros-201.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/livros/{id}",
+    "path": "/api/v1/livros/1",
+    "status": 200,
+    "image": "14-get-api-v1-livros-id-200.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/livros",
+    "path": "/api/v1/livros",
+    "status": 200,
+    "image": "15-get-api-v1-livros-200.png"
+  },
+  {
+    "method": "POST",
+    "route": "/api/v1/livros",
+    "path": "/api/v1/livros",
+    "status": 400,
+    "image": "16-post-api-v1-livros-400.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/livros/{id}",
+    "path": "/api/v1/livros/1",
+    "status": 204,
+    "image": "17-put-api-v1-livros-id-204.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/livros/{id}",
+    "path": "/api/v1/livros/999999",
+    "status": 404,
+    "image": "18-get-api-v1-livros-id-404.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/usuarios/{usuarioId}/livros",
+    "path": "/api/v1/usuarios/1/livros",
+    "status": 200,
+    "image": "19-get-api-v1-usuarios-usuarioid-livros-200.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/usuarios/{usuarioId}/livros/{livroId}",
+    "path": "/api/v1/usuarios/1/livros/1",
+    "status": 201,
+    "image": "20-put-api-v1-usuarios-usuarioid-livros-livroid-201.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/usuarios/{usuarioId}/livros/{livroId}",
+    "path": "/api/v1/usuarios/1/livros/1",
+    "status": 204,
+    "image": "21-put-api-v1-usuarios-usuarioid-livros-livroid-204.png"
+  },
+  {
+    "method": "GET",
+    "route": "/api/v1/usuarios/{usuarioId}/livros/{livroId}",
+    "path": "/api/v1/usuarios/1/livros/1",
+    "status": 200,
+    "image": "22-get-api-v1-usuarios-usuarioid-livros-livroid-200.png"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/v1/usuarios/{usuarioId}/livros/{livroId}",
+    "path": "/api/v1/usuarios/1/livros/1",
+    "status": 400,
+    "image": "23-put-api-v1-usuarios-usuarioid-livros-livroid-400.png"
+  },
+  {
+    "method": "DELETE",
+    "route": "/api/v1/usuarios/{usuarioId}/livros/{livroId}",
+    "path": "/api/v1/usuarios/1/livros/1",
+    "status": 204,
+    "image": "24-delete-api-v1-usuarios-usuarioid-livros-livroid-204.png"
+  },
+  {
+    "method": "DELETE",
+    "route": "/api/v1/usuarios/{id}",
+    "path": "/api/v1/usuarios/2",
+    "status": 204,
+    "image": "25-delete-api-v1-usuarios-id-204.png"
+  },
+  {
+    "method": "DELETE",
+    "route": "/api/v1/livros/{id}",
+    "path": "/api/v1/livros/1",
+    "status": 204,
+    "image": "26-delete-api-v1-livros-id-204.png"
+  },
+  {
+    "method": "DELETE",
+    "route": "/api/v1/autores/{id}",
+    "path": "/api/v1/autores/1",
+    "status": 204,
+    "image": "27-delete-api-v1-autores-id-204.png"
+  },
+  {
+    "method": "DELETE",
+    "route": "/api/v1/generos/{id}",
+    "path": "/api/v1/generos/1",
+    "status": 204,
+    "image": "28-delete-api-v1-generos-id-204.png"
+  }
+]
