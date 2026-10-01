@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+*.db
+*.db-shm
+*.db-wal
+*.log
+.vs/
+.idea/
+__pycache__/
+.venv/
